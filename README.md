@@ -31,22 +31,20 @@ The site was deployed to GitHub pages, the steps to deploy are as follows:
 
 
 ##Credits
-Add a link to the original location of the artwork, Follow this by mentioning the source, author and license (whatever info you know) in text
-Be as complete as possible
 
-_(source: )
+###Content
+-Inspiration for the site design oriniated from w3schools, HTML tutorial link can be found here: https://www.w3schools.com/html/default.asp
+-Inspiration for the site font including size, spacing and text-family originated from codeinstitute, YouTube channel can be found here: https://www.youtube.com/@CodeinstituteNet
+-Inspiration for the site Javascript elements in Main and Footer sections originated from w3schools, Javascript tutorial link can be found here: https://www.w3schools.com/js/default.asp
+-Content for the site quizData originated from Mentimeter, "160+ general knowledge quiz questions for any occasion" author Emma Cullen, August 27 2024, site link can be found here: https://www.mentimeter.com/blog/meetings/quiz-questions
+
+###Media
+-All images used for this project were taken from barnonegames site under the 'Fair Use' policy, link to site can be found here: https://barnonegames.com/blog/fun-trivia-categories-for-work
+-joyous-quiz-group-image.jpg originates from squarespace-cdn and is liscensed under the 'Fair Use' policy, original image can be found here: https://images.squarespace-cdn.com/content/v1/5ed035e46fb71b623aaf3d1b/9de31a18-60a9-41a3-9eee-16d530c5b0df/Group+of+coworkers+2.jpg?format=2500w
 
 
+##Acknowledgements
+-livebloggerofficial github repository "Quiz" was used in the implementation of this project, specifically the repository javascript code was studied and modified to create this project script.js file, link to original github repository code can be found here: https://github.com/livebloggerofficial/Quiz/blob/4ec3b722014fccf45bad901cc3c8b41d7b401262/main.js
+-liveblogger official YouTube channel was used to help implement a portion of the javascript elements that were implemented in the Main section of this project, link to Live Blogger YouTube channel can be found here: https://www.youtube.com/@LiveBlogger
+-Code Institute tutors, provided learning material, Student Care team and Slack community members for their advice, recommendations, support and help
 
-<author(s) names> (<date>) <title of program/source code> (<code version>) [<type>].
-
-To avoid accusations of plagiarism, it's crucial to properly cite and credit the original author when using someone else's code in your project. The general format for citing code is as follows:
-
-Include the name or username of the author.
-Include the project's or code's title.
-Include the project's or code's version information (if applicable).
-Be sure to mention when you accessed the code (if applicable).
-Include the code's URL or repository location.
-Here's an illustration of how to reference the requests module in a Python project:
-
-requests: Python HTTP Requests for Humans. Version 2.27.1. Accessed on February 14, 2023. Available at requests.
