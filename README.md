@@ -22,13 +22,21 @@ The footer section includes
 
 
 ## Deployment
-Deployment to GitHub Pages
-The site was deployed to GitHub pages, the steps to deploy are as follows:
--In the GitHub repository, navigate to the Settings tab
-=From the source section drop-down menu, select the Main Branch, then click "Save".
-=The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
--The live link can be found here: https://programcodemastera.github.io/top-quiz/
+###Deployment from GitHub Pages
+This site was deployed to GitHub pages, the steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found here: https://programcodemastera.github.io/top-quiz/
 
+###Deployment from VS Code
+This site can also be cloned to make a local copy that can be launched via VS Code Command Line Terminal, the steps are as follows:
+- Navigate to your PC Documents > vscode-projects
+- Right click in the current project folder and selecet Open Terminal while in vscode-projects
+- Type in: git clone https://github.com/ProgramCodeMasterA/top-quiz.git and hit the Enter button
+- Type in cd top-quiz, now you have navigated to the clone project folder named after the project official name: top-quiz
+- Type in code .
+  - this launches the IDE VS Code for the top-quiz project clone that is now stored locally on your PC
 
 ## Credits
 
