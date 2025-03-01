@@ -1,18 +1,28 @@
 # Top Quiz
 
-
 ## Description
 This is the Top Quiz project, a website with the purpose of offering those with inquisitive mind a place where they can challenge and refine their general knowledge and quiz skills. Challengers will have a quick 10 seconds to come with the answers to a random sample of general knowledge trivia and afterwards will be given the results of what they got right/wrong and what the answer is so they can learn and grow their minds speed, agility and knowldge base
 
 
 ## Features
 
+### Home Page
+#### Header section
+- Website title in Header section
+- Welcome tex in Header section
+![image](https://github.com/user-attachments/assets/0f917a46-e715-40aa-8a12-fd7025e8c77a)
 
+#### Main section
+- Intorduction text about quiz trivia
+- Quiz trivia question container
+- Simple and compact design give greater usability, and readability
+![image](https://github.com/user-attachments/assets/8e234fe7-c8e5-4102-b6b1-4c23daf292b1)
 
+#### Footer section
+- Click to reveal answer question
+- Bright color scheme highlights individual sections within the site
+![image](https://github.com/user-attachments/assets/87a83436-679e-4363-9878-43b85efd47b1)
 
-
-
-The footer section includes
 
 ## Testing
 
@@ -40,7 +50,6 @@ This site can also be cloned to make a local copy that can be launched via VS Co
   - this launches the IDE VS Code for the top-quiz project clone that is now stored locally on your PC
 
 ## Credits
-
 ### Content
 - Inspiration for the site design oriniated from w3schools, HTML tutorial link can be found here: https://www.w3schools.com/html/default.asp
 - Inspiration for the site font including size, spacing and text-family originated from codeinstitute, YouTube channel can be found here: https://www.youtube.com/@CodeinstituteNet
