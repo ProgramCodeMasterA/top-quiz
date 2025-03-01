@@ -10,25 +10,49 @@ This is the Top Quiz project, a website with the purpose of offering those with 
 #### Header section
 - Website title in Header section
 - Welcome tex in Header section
+
 ![image](https://github.com/user-attachments/assets/0f917a46-e715-40aa-8a12-fd7025e8c77a)
 
 #### Main section
 - Intorduction text about quiz trivia
 - Quiz trivia question container
 - Simple and compact design give greater usability, and readability
+
 ![image](https://github.com/user-attachments/assets/8e234fe7-c8e5-4102-b6b1-4c23daf292b1)
 
 #### Footer section
 - Click to reveal answer question
 - Bright color scheme highlights individual sections within the site
+
 ![image](https://github.com/user-attachments/assets/87a83436-679e-4363-9878-43b85efd47b1)
 
 
 ## Testing
+### Manual Testing
+- joyous-quiz-group-image.jpg has been manually tested and no errors have been found
+- "quiz-trivia-example-container" section has been manually tested and no erros have been found
+- quizContainer 'Start' button has been tested and no errors have been found
+- quizContainer 'Next' button has been tested and no errors have been found
+- quizContainer 'Retake' button has been tested and no errors have been found
+- "click-reveal" button has been teste and no errors have been found
+- quizResults have been tested and no erros have been found
+![image](https://github.com/user-attachments/assets/be09a8c5-29db-4279-b56a-aea7a2b27d27)
+![image](https://github.com/user-attachments/assets/49f2d90b-1621-435d-b6ac-5a8a3f38a7e1)
+![image](https://github.com/user-attachments/assets/c77584eb-91f3-4eee-a19d-27fe61aff312)
 
+### Responsiveness
+- This site was tested by chrome tool https://responsivedesignchecker.com/
+![image](https://github.com/user-attachments/assets/3d045e1b-10d6-41a0-99e7-0ece5c1f4264)
 
 ### Validator Testing
+#### HTML
+- No errors were found when scanned through the official W3C validator tool
+- A warning was found with no context to the section class "quiz-trivia-exampe-container" however this is okay because it is neccasary to implement the javascript elements contained within this project, specifically the "quizContainer"
+![image](https://github.com/user-attachments/assets/b1d321e9-11fc-473b-b7cc-008a0e4ee1c2)
 
+#### CSS
+- No errors were found when scanned through the official W3C validator tool
+![image](https://github.com/user-attachments/assets/1346ef18-2838-4928-9b5d-da76cda953dc)
 
 
 ## Deployment
