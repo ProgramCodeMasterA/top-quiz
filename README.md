@@ -27,6 +27,15 @@ This is the Top Quiz project, a website with the purpose of offering those with 
 ![image](https://github.com/user-attachments/assets/87a83436-679e-4363-9878-43b85efd47b1)
 
 
+## Technologies Used
+- HTML was used as the foundation coding of this site
+- CSS was used to add the styles, color and layout of this site
+- VSCode was used as the main tool to manage project files/folders, write and edit code, upload Commit changes, and upload images
+- Git was used for the version control of the site
+- GitHub was used to host the code of this site
+- GitHub Pages was used to host the live version of this site
+
+
 ## Testing
 ### Manual Testing
 - joyous-quiz-group-image.jpg has been manually tested and no errors have been found
@@ -37,7 +46,9 @@ This is the Top Quiz project, a website with the purpose of offering those with 
 - "click-reveal" button has been teste and no errors have been found
 - quizResults have been tested and no erros have been found
 ![image](https://github.com/user-attachments/assets/be09a8c5-29db-4279-b56a-aea7a2b27d27)
+
 ![image](https://github.com/user-attachments/assets/49f2d90b-1621-435d-b6ac-5a8a3f38a7e1)
+
 ![image](https://github.com/user-attachments/assets/c77584eb-91f3-4eee-a19d-27fe61aff312)
 
 ### Responsiveness
