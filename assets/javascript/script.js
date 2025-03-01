@@ -1,3 +1,4 @@
+//Quiz Data quistions and correct answers
 let quizData = [{
         question: "What is the capital of Japan?",
         options: ["Tokyo", "Beijing", "Seoul", "Bangkok"],
@@ -135,6 +136,7 @@ let quizData = [{
     },
 ];
 
+//Declare variables
 const quizContainer = document.querySelector(".quiz-container");
 const question = document.querySelector(".quiz-container .question");
 const options = document.querySelector(".quiz-container .options");
@@ -148,12 +150,14 @@ let score = 0;
 const MAX_QUESTIONS = 10;
 let timerInterval;
 
+//Shuffle the order of the quiz questions function
 const shuffleArray = (array) => {
     return array.slice().sort(() => Math.random() - 0.5);
 };
 
 quizData = shuffleArray(quizData);
 
+//Reset local storage containing previous user answers
 const resetLocalStorage = () => {
     for (i = 0; i < MAX_QUESTIONS; i++) {
         localStorage.removeItem(`userAnswer_${i}`);
@@ -162,6 +166,7 @@ const resetLocalStorage = () => {
 
 resetLocalStorage();
 
+//Check if answer equals correct function
 const checkAnswer = (e) => {
     let allOptions = document.querySelectorAll(".quiz-container .option");
     allOptions.forEach((o) => {
@@ -179,6 +184,7 @@ const checkAnswer = (e) => {
     localStorage.setItem(`userAnswer_${questionNumber}`, userAnswer);
 };
 
+//Create question function
 const createQuestion = () => {
     clearInterval(timerInterval);
 
@@ -186,6 +192,7 @@ const createQuestion = () => {
     const timerDisplay = document.querySelector(".quiz-container .timer");
     timerDisplay.classList.remove("danger");
 
+    //Time left display
     timerDisplay.textContent = `Time Left: 10 seconds`;
 
     timerInterval = setInterval(() => {
@@ -222,7 +229,9 @@ const createQuestion = () => {
     });
 };
 
+//Retake quiz function
 const retakeQuiz = () => {
+    //Reset variables to default
     questionNumber = 0;
     score = 0;
     quizData = shuffleArray(quizData);
@@ -233,6 +242,7 @@ const retakeQuiz = () => {
     quizContainer.style.display = "block";
 };
 
+//Display Quiz results function
 const displayQuizResult = () => {
     quizResult.style.display = "flex";
     quizContainer.style.display = "none";
@@ -254,7 +264,7 @@ const displayQuizResult = () => {
         if (!answeredCorrectly) {
             resultItem.classList.add("incorrect");
         } else {
-            resultItem.classList.add("correct")
+            resultItem.classList.add("correct");
         }
 
         resultItem.innerHTML = `<div class="question">Question ${i + 1}: ${
@@ -266,12 +276,13 @@ const displayQuizResult = () => {
         quizResult.appendChild(resultItem);
     }
 
+    //Retake Quiz button
     const retakeBtn = document.createElement("button");
     retakeBtn.classList.add("retake-btn");
     retakeBtn.innerHTML = "Retake Quiz";
     retakeBtn.addEventListener("click", retakeQuiz);
     quizResult.appendChild(retakeBtn);
-    quizResult.append("Click the 'Reload this Page' button at the top left to return to the home page")
+    quizResult.append("Click the 'Reload this Page' button at the top left to return to the home page");
 };
 
 const displayNextQuestion = () => {
@@ -284,8 +295,10 @@ const displayNextQuestion = () => {
     createQuestion();
 };
 
+//Next button Event listner
 nextBtn.addEventListener("click", displayNextQuestion);
 
+//Start button Event listner
 startBtn.addEventListener("click", () => {
     startBtnContainer.style.display = "none";
     quizContainer.style.display = "block";
