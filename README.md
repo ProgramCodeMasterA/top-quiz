@@ -33,9 +33,10 @@ This site was deployed to GitHub pages, the steps to deploy are as follows:
 This site can also be cloned to make a local copy that can be launched via VS Code Command Line Terminal, the steps are as follows:
 - Navigate to your PC Documents > vscode-projects
 - Right click in the current project folder and selecet Open Terminal while in vscode-projects
-- Type in: git clone https://github.com/ProgramCodeMasterA/top-quiz.git and hit the Enter button
-- Type in cd top-quiz, now you have navigated to the clone project folder named after the project official name: top-quiz
-- Type in code .
+- Type in and Enter: git clone https://github.com/ProgramCodeMasterA/top-quiz.git
+- Type in and Enter: cd top-quiz
+    - now you have navigated to the clone project folder named after the project official name: top-quiz
+- Type in and Enter: code .
   - this launches the IDE VS Code for the top-quiz project clone that is now stored locally on your PC
 
 ## Credits
