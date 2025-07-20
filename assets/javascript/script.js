@@ -1,4 +1,4 @@
-//Quiz Data quistions and correct answers
+//Quiz Data questions and correct answers
 let quizData = [{
         question: "What is the capital of Japan?",
         options: ["Tokyo", "Beijing", "Seoul", "Bangkok"],
@@ -11,12 +11,7 @@ let quizData = [{
     },
     {
         question: "Which famous scientist developed the theory of general relativity?",
-        options: [
-            "Isaac Newton",
-            "Albert Einstein",
-            "Stephen Hawking",
-            "Galileo Galilei",
-        ],
+        options: ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Galileo Galilei"],
         correct: "Albert Einstein",
     },
     {
@@ -26,113 +21,109 @@ let quizData = [{
     },
     {
         question: "Which famous artist painted the Mona Lisa?",
-        options: [
-            "Vincent van Gogh",
-            "Pablo Picasso",
-            "Leonardo da Vinci",
-            "Michelangelo",
-        ],
+        options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
         correct: "Leonardo da Vinci",
     },
     {
         question: "Which playwright wrote the tragedy 'Romeo and Juliet'?",
-        options: [
-            "William Shakespeare",
-            "George Bernard Shaw",
-            "Oscar Wilde",
-            "Charles Dickens",
-        ],
+        options: ["William Shakespeare", "George Bernard Shaw", "Oscar Wilde", "Charles Dickens"],
         correct: "William Shakespeare",
     },
     {
         question: "Who is known as the father of modern physics?",
-        options: [
-            "Isaac Newton",
-            "Albert Einstein",
-            "Galileo Galilei",
-            "Niels Bohr",
-        ],
+        options: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Niels Bohr"],
         correct: "Albert Einstein",
     },
     {
         question: "Which ancient wonder of the world was a massive statue of the Greek god Zeus?",
-        options: [
-            "Great Pyramid of Giza",
-            "Hanging Gardens of Babylon",
-            "Statue of Zeus at Olympia",
-            "Colossus of Rhodes",
-        ],
+        options: ["Great Pyramid of Giza", "Hanging Gardens of Babylon", "Statue of Zeus at Olympia", "Colossus of Rhodes"],
         correct: "Statue of Zeus at Olympia",
     },
     {
         question: "Who wrote the novel 'Pride and Prejudice'?",
-        options: [
-            "Emily Brontë",
-            "Charlotte Brontë",
-            "Jane Austen",
-            "Louisa May Alcott",
-        ],
+        options: ["Emily Brontë", "Charlotte Brontë", "Jane Austen", "Louisa May Alcott"],
         correct: "Jane Austen",
     },
     {
         question: "Who was the Ancient Greek God of the Sun?",
-        options: [
-            "Aphrodite",
-            "Hepheastus",
-            "Apollo",
-            "Poseidon",
-        ],
+        options: ["Aphrodite", "Hepheastus", "Apollo", "Poseidon"],
         correct: "Apollo",
     },
     {
-        question: "Who was the Ancient Greek God of the Sun?",
-        options: [
-            "Aphrodite",
-            "Hepheastus",
-            "Apollo",
-            "Poseidon",
-        ],
-        correct: "Apollo",
-    },
-    {
-        question: "Who was the Ancient Greek God of the Sun?",
-        options: [
-            "Aphrodite",
-            "Hepheastus",
-            "Apollo",
-            "Poseidon",
-        ],
-        correct: "Apollo",
+        question: "Who was the Ancient Greek God of the Ocean?",
+        options: ["Aphrodite", "Hepheastus", "Apollo", "Poseidon"],
+        correct: "Poseidon",
     },
     {
         question: "How many faces does a Dodecahedron have?",
-        options: [
-            "10",
-            "20",
-            "14",
-            "12",
-        ],
+        options: ["10", "20", "14", "12"],
         correct: "12",
     },
     {
         question: "What is the 4th letter of the Greek alphabet?",
-        options: [
-            "Alpha",
-            "Beta",
-            "Delta",
-            "Gamma",
-        ],
+        options: ["Alpha", "Beta", "Delta", "Gamma"],
         correct: "Delta",
     },
     {
         question: "What is acrophobia a fear of?",
-        options: [
-            "Falling",
-            "Heights",
-            "Flying",
-            "Spiders",
-        ],
+        options: ["Falling", "Heights", "Flying", "Spiders"],
         correct: "Heights",
+    },
+    /////////////
+    {
+        question: "How many dots appear on a pair of dice?",
+        options: ["40", "42", "46", "44"],
+        correct: "42",
+    },
+    {
+        question: "On which continent would you find the world’s largest desert?",
+        options: ["Africa", "Austalasia", "Europe", "Antartica"],
+        correct: "Antartica",
+    },
+    {
+        question: "What animal has the largest brain relative to body size?",
+        options: ["Horse", "Elephant", "Dophin", "Shark"],
+        correct: "Dolphin",
+    },
+    {
+        question: "What comes but never arrives?",
+        options: ["My Birthday", "The Future", "Validation", "Tomorrow"],
+        correct: "Delta",
+    },
+    {
+        question: "What is the chemical symbol for gold?",
+        options: ["Ag", "Au", "Gd", "G"],
+        correct: "Au",
+    },
+    {
+        question: "What is the chemical symbol for potassium?",
+        options: ["Pt", "P", "K", "V"],
+        correct: "Delta",
+    },
+    {
+        question: "What is the name of the home of the Greek Gods?",
+        options: ["Olympus", "Valhalla", "Elysium", "Atlantis"],
+        correct: "Olympus",
+    },
+    {
+        question: "What gives a reply but can’t talk when spoken to?",
+        options: ["A parrot", "A mirror", "An echo", "My phone"],
+        correct: "An echo",
+    },
+    {
+        question: "What question can you never answer yes to?",
+        options: ["Are you awake?", "Are you asleep?", "Are you okay?", "Are you there yet?"],
+        correct: "Are you asleep?",
+    },
+    {
+        question: "What is so fragile that saying its name breaks it?",
+        options: ["Vase", "Glass", "Cobweb", "Silence"],
+        correct: "Silence",
+    },
+    {
+        question: "What comes down but never goes up?",
+        options: ["Leaves", "Sun", "Rain", "Balloons"],
+        correct: "Rain",
     },
 ];
 

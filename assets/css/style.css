@@ -70,6 +70,12 @@ p {
     padding: 15px;
 }
 
+a {
+    font-weight: 800;
+    text-align: center;
+    padding: 15px;
+}
+
 li {
     margin: 15px;
     font-size: 100%;
@@ -82,9 +88,13 @@ figure {
 
 /* Footer */
 footer {
-    margin-top: 15%;
+    margin-top: 25%;
     padding: 15px;
     background-color: #FA94FA
+}
+
+.trivia-question {
+    margin: 10%;
 }
 
 .quiz-group-image {
