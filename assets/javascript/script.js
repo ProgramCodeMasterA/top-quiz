@@ -69,7 +69,6 @@ let quizData = [{
         options: ["Falling", "Heights", "Flying", "Spiders"],
         correct: "Heights",
     },
-    /////////////
     {
         question: "How many dots appear on a pair of dice?",
         options: ["40", "42", "46", "44"],
@@ -88,7 +87,7 @@ let quizData = [{
     {
         question: "What comes but never arrives?",
         options: ["My Birthday", "The Future", "Validation", "Tomorrow"],
-        correct: "Delta",
+        correct: "Tomorrow",
     },
     {
         question: "What is the chemical symbol for gold?",
@@ -98,7 +97,7 @@ let quizData = [{
     {
         question: "What is the chemical symbol for potassium?",
         options: ["Pt", "P", "K", "V"],
-        correct: "Delta",
+        correct: "K",
     },
     {
         question: "What is the name of the home of the Greek Gods?",
@@ -128,6 +127,7 @@ let quizData = [{
 ];
 
 //Declare variables
+const quizTriviaContainer = document.querySelector(".quiz-trivia-example-container");
 const quizContainer = document.querySelector(".quiz-container");
 const question = document.querySelector(".quiz-container .question");
 const options = document.querySelector(".quiz-container .options");
@@ -235,7 +235,10 @@ const retakeQuiz = () => {
 
 //Display Quiz results function
 const displayQuizResult = () => {
-    quizResult.style.display = "flex";
+    scrollTo(0, 0);
+    quizResult.style.display = "grid";
+    //quizResult.style.visibility = "visible"; // Reveals Quiz Results Container
+    quizTriviaContainer.style.display = "none";
     quizContainer.style.display = "none";
     quizResult.innerHTML = "";
 
@@ -273,7 +276,10 @@ const displayQuizResult = () => {
     retakeBtn.innerHTML = "Retake Quiz";
     retakeBtn.addEventListener("click", retakeQuiz);
     quizResult.appendChild(retakeBtn);
-    quizResult.append("Click the 'Reload this Page' button at the top left to return to the home page");
+
+    const retakeQuizText = document.createElement("p");
+    retakeQuizText.innerText = "Click the 'Reload this Page' button at the top left to return to the home page or Click on the Retake Quiz button to take the quiz again";
+    quizResult.appendChild(retakeQuizText);
 };
 
 const displayNextQuestion = () => {
@@ -291,7 +297,8 @@ nextBtn.addEventListener("click", displayNextQuestion);
 
 //Start button Event listner
 startBtn.addEventListener("click", () => {
-    startBtnContainer.style.display = "none";
-    quizContainer.style.display = "block";
+    startBtnContainer.style.display = "none"; // Hides Start button when clicked on
+    //quizContainer.style.display = "block";
+    quizContainer.style.visibility = "visible"; // Reveals Quiz Container
     createQuestion();
 });
