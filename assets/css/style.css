@@ -26,6 +26,9 @@ main {
     flex: 1 0 auto;
     font-size: 100%;
     letter-spacing: 2px;
+
+
+    flex-wrap: wrap;
 }
 
 /* Header */
@@ -89,7 +92,7 @@ figure {
 
 /* Footer */
 footer {
-    margin-top: 35%;
+    margin-top: 2%;
     padding: 12px;
     background-color: #66FF66
 }
@@ -132,8 +135,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 30%;
     border-style: inset;
+    padding: 5%;
 }
 
 .start-btn-container h2 {
@@ -151,6 +155,7 @@ footer {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 10px;
 }
 
 .quiz-container {
@@ -158,23 +163,13 @@ footer {
     font-family: 'Lato', sans-serif;
     max-width: 900px;
     border-style: inset;
-    margin: auto;
-    margin-top: 10%;
     padding: 5px;
-    padding-top: 5%;
-
-
-    position: absolute;
-    top: 60%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;
-    width: auto;
-
+    margin-top: 5%;
+    margin-left: 28%;
+    justify-content: space-between;
     visibility: hidden;
 }
 
@@ -243,44 +238,22 @@ footer {
 
 .quiz-result {
     background-color: #ffffff;
-    /*
-    flex-direction: column;
-    
-    gap: 24px;
-    */
-    max-width: 800px;
+
+
+    max-width: 600px;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
-    padding: 15px;
+    padding: 10px;
     border-style: outset;
-
-
-
-    display: none;
-    gap: 12px;
-    /*
-    grid-template-columns: 300px 300px;
-    gap: 12px;
-    */
-
-
-
-    /*
-    position: block;
-    /*
-    top: 50%;
-    
-    left: 10%;
-    display: block;
-    
-    transform: translate(-50%, -50%);
     flex-direction: column;
-    align-items: center;
-    margin-top: 90%;
+    justify-content: space-between;
+    align-items: baseline;
+    display: none;
+    gap: 10px;
 
+    /*
     visibility: hidden;
     */
-
 }
 
 .quiz-result .question-container {
@@ -341,6 +314,13 @@ footer {
     width: 100%;
     padding-top: 18px;
 }
+
+
+
+
+
+
+
 
 /* CSS for devices with a max width of 640px*/
 @media (max-width: 640px) {
