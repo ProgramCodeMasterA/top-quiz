@@ -26,7 +26,6 @@ main {
     flex: 1 0 auto;
     font-size: 100%;
     letter-spacing: 2px;
-    background-color: #BDBDFF;
 }
 
 /* Header */
@@ -90,7 +89,7 @@ figure {
 
 /* Footer */
 footer {
-    margin-top: 25%;
+    margin-top: 35%;
     padding: 12px;
     background-color: #66FF66
 }
@@ -110,6 +109,7 @@ footer {
 
 /* Sections */
 .quiz-trivia-example-container {
+    background-color: #BDBDFF;
     position: relative;
     display: flex;
     width: 100%;
