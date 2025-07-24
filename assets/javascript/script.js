@@ -243,7 +243,7 @@ const displayQuizResult = () => {
     quizResult.innerHTML = "";
 
     const resultHeading = document.createElement("h2");
-    resultHeading.innerHTML = `You have scored ${score} out of ${MAX_QUESTIONS}.`;
+    resultHeading.innerHTML = `You have scored ${score} out of ${MAX_QUESTIONS}`;
     quizResult.appendChild(resultHeading);
 
     for (let i = 0; i < MAX_QUESTIONS; i++) {
@@ -298,7 +298,6 @@ nextBtn.addEventListener("click", displayNextQuestion);
 //Start button Event listner
 startBtn.addEventListener("click", () => {
     startBtnContainer.style.display = "none"; // Hides Start button when clicked on
-    //quizContainer.style.display = "block";
     quizContainer.style.visibility = "visible"; // Reveals Quiz Container
     createQuestion();
 });
