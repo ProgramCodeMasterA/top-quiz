@@ -1,7 +1,7 @@
 # Top Quiz
 
 ## Description
-This is the Top Quiz project, a website with the purpose of offering those with inquisitive mind a place where they can challenge and refine their general knowledge and quiz skills. Challengers will have a quick 10 seconds to come with the answers to a random sample of general knowledge trivia and afterwards will be given the results of what they got right/wrong and what the answer is so they can learn and grow their minds speed, agility and knowldge base
+This is the Top Quiz project, a website with the purpose of offering those with inquisitive mind a place where they can challenge and refine their general knowledge and quiz skills. Challengers will have a quick 10 seconds to come with the answers to a random sample of general knowledge trivia and afterwards will be given the results of what they got right/wrong and what the answer is so they can learn and grow their minds speed, agility and knowldge base. There are also some helpful links to other websites where you can create your own quiz and challenge your friends to put your brains to the test.
 
 
 ## Features
@@ -9,7 +9,7 @@ This is the Top Quiz project, a website with the purpose of offering those with 
 ### Home Page
 #### Header section
 - Website title in Header section
-- Welcome tex in Header section
+- Welcome text in Header section
 
 ![image](https://github.com/user-attachments/assets/0f917a46-e715-40aa-8a12-fd7025e8c77a)
 
@@ -59,11 +59,17 @@ This is the Top Quiz project, a website with the purpose of offering those with 
 #### HTML
 - No errors were found when scanned through the official W3C validator tool
 - A warning was found with no context to the section class "quiz-trivia-exampe-container" however this is okay because it is neccasary to implement the javascript elements contained within this project, specifically the "quizContainer"
-![image](https://github.com/user-attachments/assets/b1d321e9-11fc-473b-b7cc-008a0e4ee1c2)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb907214-b6c2-4119-afec-a3ad6a0759d6" />
+
 
 #### CSS
 - No errors were found when scanned through the official W3C validator tool
-![image](https://github.com/user-attachments/assets/1346ef18-2838-4928-9b5d-da76cda953dc)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6b35cd6-094b-4b4a-bb69-49264d0a2dab" />
+
+
+### Javascript
+- No errors were found when the syntax was scanned throught the esprima validator tool
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c5a6853-d364-4467-b265-b7493647465e" />
 
 
 ## Deployment
@@ -100,4 +106,5 @@ This site can also be cloned to make a local copy that can be launched via VS Co
 - livebloggerofficial github repository "Quiz" was used in the implementation of this project, specifically the repository javascript code was studied and modified to create this project script.js file, link to original github repository code can be found here: https://github.com/livebloggerofficial/Quiz/blob/4ec3b722014fccf45bad901cc3c8b41d7b401262/main.js
 - liveblogger official YouTube channel was used to help implement a portion of the javascript elements that were implemented in the Main section of this project, link to Live Blogger YouTube channel can be found here: https://www.youtube.com/@LiveBlogger
 - Code Institute tutors, provided learning material, Student Care team and Slack community members for their advice, recommendations, support and help
+
 
